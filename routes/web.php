@@ -25,3 +25,4 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/testFunction', [App\Http\Controllers\FunctionTest::class, 'index'])->name('home');
+Route::get('/testReturn', [App\Http\Controllers\FunctionTest::class, 'testReturn']);
